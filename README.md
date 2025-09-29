@@ -7,6 +7,9 @@
 
 ## How to install/uninstall QuickLook plugins
 
+> [!IMPORTANT]
+> `.qlgenerator` plugins are no longer supported on macOS 15 (Sequoia) and later; use QuickLook App Extensions instead. ([Reference](https://eclecticlight.co/2024/10/31/how-sequoia-has-changed-quicklook-and-its-thumbnails/))
+
 
 ### Manually (modern)
 - install : Move the downloaded .app file to `~/Applications` (only for yourself) or `/Applications` (for everyone)  
@@ -143,3 +146,4 @@ Then, run `qlmanage -r` reload QuickLook
 [QLTorrent](http://technocrank.com/downloads/) |  Displays the contents of a metainfo “.torrent” file| .torrent |
 [quicklook-ipa](https://code.google.com/archive/p/quicklook-ipa/) |display iPhone / iPad / iPod Touch applications| |
 [ProcreateViewer](https://github.com/jaromvogel/ProcreateViewer) |QuickLook plugin for mac that allows you to see full previews of .procreate files in Finder.|.procreate|
+[QuickFits](https://eurus.one/) | Fast FITS image preview for astrophotographers. |.fits, .fit |
